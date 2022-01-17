@@ -1,0 +1,8 @@
+The files has some simple errors. Try to compile the packages of these three files with the linking process, and see the errors.
+Once you fixed them, create a Makefile that compile each .c file 
+seperatly (like  Makefile3 example showed in class).
+
+Generate a dump file with the optimazed decompilation of the exec file, and give it a look.
+
+Submit your solution in a zip file (remember not to attach compiles
+or exec files)

@@ -1,0 +1,11 @@
+programa: main.o funciones.o
+	gcc -o programa main.o funciones.o
+
+main.o : main.c
+	gcc -o main.o -c -I. main.c
+
+funciones.o : funciones.o
+	gcc -o funciones.o -c -I. funciones.c
+
+.PHONY: clean
+	clean: 

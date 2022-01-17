@@ -1,0 +1,17 @@
+#include "header.h"
+
+int suma(FILE *file){
+	int count = 0 , sum = 0 , n , prom ;
+
+	while(!feof(file){
+		count++; //cuento los elefantes
+		fscan(file,"%d",&n);
+		sum=sum + n;
+		
+	}
+
+	prom = sum/count;
+	
+	return prom
+;
+}
